@@ -11,6 +11,7 @@
 	<aop:config  proxy-target-class="true"/>
 	<bean id="moto" class="com.theRed.classes.Motobike"/>
 	<bean id="bike" class="com.theRed.classes.Bike"/>
-	<bean id="beforeAspectRun" class="com.theRed.aspect.BeforeAspect"/>
+	<bean id="ron92" class="com.theRed.classes.Ron92"/>
+	<bean id="beforeAspectRun" class="com.theRed.aspect.Aspects"/>
 
 </beans>
