@@ -17,6 +17,10 @@ public class Main {
 		motobike.run();
 		bike.run();
 		ron92.in();
+		try {
+			ron92.throwExceptionFuelIn();
+		} catch (Exception e) {
+		}
 	}
 
 }
