@@ -7,4 +7,9 @@ public class Bike implements Vehicle {
 		System.out.println("Bike is running");
 	}
 
+	@Override
+	public void addElement(String name) {
+		System.out.println(name+ " was added");
+	}
+
 }

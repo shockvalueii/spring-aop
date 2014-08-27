@@ -21,6 +21,7 @@ public class Main {
 			ron92.throwExceptionFuelIn();
 		} catch (Exception e) {
 		}
+		bike.addElement("wheel");
 	}
 
 }

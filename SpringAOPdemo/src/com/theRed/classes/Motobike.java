@@ -5,4 +5,9 @@ public class Motobike implements Vehicle {
 	public void run() {
 		System.out.println("Moto is running");
 	}
+
+	@Override
+	public void addElement(String name) {
+		System.out.println(name + " was added");
+	}
 }
